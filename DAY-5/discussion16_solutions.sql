@@ -1,3 +1,9 @@
+-- Creating new database
+create database discussions16;
+
+--using the newly created database
+use discussions16;
+
 --1.Write a query to display the names (first_name, last_name) using alias name “First Name", "Last Name".
 SELECT first_name AS "First Name", last_name AS "Last Name" FROM employees;
 
