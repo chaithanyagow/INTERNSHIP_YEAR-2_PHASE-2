@@ -1,3 +1,9 @@
+-- Creating new database
+create database discussions18;
+
+--using the newly created database
+use discussions18;
+
 --1.Write a SQL statement to create a table countries including columns country_id, country_name, and region_id, and make sure that the combination of columns country_id and region_id will be unique.
 CREATE TABLE countries (
 country_id VARCHAR(10) PRIMARY KEY,
